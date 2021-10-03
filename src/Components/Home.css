@@ -1,0 +1,16 @@
+.home {
+  width: 80%;
+  margin: auto;
+}
+
+.home h1 {
+  color: #2d6a4f;
+  font-size: 1.8rem;
+}
+
+.home div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

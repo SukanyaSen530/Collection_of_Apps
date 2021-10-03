@@ -1,0 +1,11 @@
+.win {
+  color: green;
+}
+
+.loss {
+  color: red;
+}
+
+.neutral {
+  color: #8ecae6;
+}

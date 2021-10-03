@@ -1,0 +1,36 @@
+.footer {
+  height: 40px;
+  display: flex;
+  background-color: #000814;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.footer_note {
+  text-align: left;
+  margin-left: 30px;
+  flex: 0.7;
+}
+
+.footer_socialIcons {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0.3;
+}
+
+.footer_socialIcons a {
+  color: white;
+  margin: 0 0.2rem;
+}
+
+.footer_socialIcons a:hover {
+  color: #dee2ff;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer_note {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
