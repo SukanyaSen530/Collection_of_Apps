@@ -9,7 +9,7 @@ export default function Quiz1() {
   const checkInputs = (angles) => {
     if (angles.angle1 < 0 || angles.angle2 < 0 || angles.angle3 < 0) {
       console.log(angles);
-      alert("Angles can't be negative!");
+      alert("Inputs can't be negative!");
       return false;
     } else if (
       angles.angle1 === "" ||

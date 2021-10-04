@@ -12,20 +12,22 @@ export default function ProfitLoss() {
 
   if (result.type === "profit") {
     res = (
-      <>
-        Profit - {result.amount} and Profit percentage - {result.percentage}%
-      </>
+      <div className="win">
+        Congratulation!! Profit - {result.amount} and Profit percentage -{" "}
+        {result.percentage}%
+      </div>
     );
   } else if (result.type === "loss") {
     res = (
-      <>
-        Loss - {result.amount} and Loss percentage - {result.percentage}%
-      </>
+      <div className="loss">
+        Oh Nooo :( Loss - {result.amount} and Loss percentage -{" "}
+        {result.percentage}%
+      </div>
     );
   } else if (result.type === "neutral") {
-    res = <>Neither Profit nor Loss!</>;
+    res = <div className="neutral"> Neither Profit nor Loss!</div>;
   } else {
-    res = <>Profit or Loss on your stocks?</>;
+    res = <div>Profit or Loss on your stocks?</div>;
   }
 
   const handleClick = () => {
@@ -78,17 +80,7 @@ export default function ProfitLoss() {
       </div>
 
       <div className="result">
-        <h4
-          className={`${
-            result.type === "profit"
-              ? "win"
-              : result.type === "loss"
-              ? "loss"
-              : "neutral"
-          }`}
-        >
-          {res}
-        </h4>
+        <h4>{res}</h4>
       </div>
     </section>
   );

@@ -43,7 +43,7 @@
 }
 
 .result img {
-  height: 200px;
+  height: 150px;
   width: 450px;
 }
 
@@ -59,7 +59,8 @@
     margin: 1rem auto;
   }
 
-  .result {
+  .result,
+  .result img {
     width: 90%;
   }
 

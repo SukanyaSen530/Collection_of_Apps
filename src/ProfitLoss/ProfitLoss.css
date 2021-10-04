@@ -1,11 +1,16 @@
 .win {
-  color: green;
+  background-color: green;
+  padding: 1rem;
+  color: white;
 }
 
 .loss {
-  color: red;
+  background-color: maroon;
+  padding: 1rem;
+  color: white;
 }
 
 .neutral {
-  color: #8ecae6;
+  background-color: #8ecae6;
+  padding: 1rem;
 }

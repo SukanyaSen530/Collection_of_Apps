@@ -9,8 +9,8 @@ export default function LuckyBirthday() {
 
   const handleClick = () => {
     if (!date || !number) {
-      alert("Inputs can't be empty. Negative lucky number is invalid!");
-    } else if (number < 0) alert("Lucky Number can't be empty!");
+      alert("Inputs can't be empty.");
+    } else if (number < 0) alert("Lucky Number can't be negative!");
     else {
       setLucky(getLuckyNum(date, number));
     }
