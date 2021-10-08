@@ -14,9 +14,6 @@ export default function Footer() {
         <a href="https://www.linkedin.com/in/sukanya-sen-615980130/">
           <i className="fab fa-linkedin fa-2x"></i>
         </a>
-        <a href="https://www.instagram.com/">
-          <i className="fab fa-instagram-square fa-2x"></i>
-        </a>
       </div>
     </footer>
   );
